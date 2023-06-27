@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "montserrat","sans-serif"; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    display: flex;
+}
+.flex p{
+    /* border: 2px solid orange; */
+    font-size: 24px;
+    height: 36px;
+    width: 68.2656px;
+    text-decoration: none solid rgb(0,0,0);
+    text-align: center;
+    font-weight: 1%;
+    justify-content: space-between;
+    
+
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    grid-template-rows: repeat(1fr, 2);
+}
+
+
+.padding-16 h3 {
+    padding: 16px;
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-family: "montserrat","sans-serif";
+    position: fixed;
+    display: block;
+    top: 0;
+    bottom: 0;
+   
+}
+.hover-btn{
+    display: block;
+}
+
+.hover-btn:hover {
+    background-color: rgb(198, 198, 198);
+    color: black;
+}
+
+.padding-64 {
+    padding: 64px;
+}
+
+.main{
+
+    /* border: 2px solid blue; */
+    height: 2200px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nav-bar {
+    /* border: 2px solid red; */
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 668.6px;
+    padding-left: 10px;
+   
+}
+
+h3{
+    position:fixed;
+}
+
+
+
+.nav-content{
+    flex-direction: column;
+    padding: 0px 64px 64px 0;
+    height: 380px;
+    width: 250px;
+    position: fixed;
+    display: block; 
+}
+.hover-btn{
+    height: 43px;
+    width: 250px;
+    padding: 8px 16px;  
+    font-size: 18px;
+    
+}   
+.nav-header{
+    font-size: 16px;
+}
+.header{
+    font-size: 15px;
+    padding-left: 16px;  
+    position: fixed;
+    display: block;
+    bottom: 0;
+}
+header {
+    width: 950px;
+    justify-content: space-between;
+    padding: 24px;
+    font-size: 1.2rem;
+}
+.bg_container{
+    height: 612px;
+    width: 930px;
+}
+
+.bg_container img{
+    position: absolute;
+    background-position: 0%;
+    object-fit: fill;
+    vertical-align: middle;
+
+    height: 612px;
+    width: 930px;
+    margin-right: 0 100px 0 0;
+}
+section{
+    position: relative;
+}
+
+.bg-text {
+    height: 299px;
+    width: 484.225px;
+    padding: 24px 48px 24px 48px;
+    font-family: "Montserrat", 'sans-serif';
+    font-size: 15px;
+    line-height: 22.5px;
+    position: absolute;
+
+}
+
+.text-items {
+    height: 96px;
+    width: 388.225px;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 60px;
+    line-height: 96px;
+    font-weight: normal;
+
+    color: white;
+}
+
+.text-items1 {
+    height: 54px;
+    width: 388.225px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+    color: white;
+}
+    
+    
+
+
+.shop{
+    height: 51px;
+    width: 155.808px;
+    padding: 12px 24px 12px 24px;
+    background-color: black;
+    color: white;
+
+    /* font and text */
+
+
+    font-family: 'Montserrat', 'sans-serif';
+    line-height: 27px;
+    text-align: center;
+}
+
+.shop:hover {
+    background-color: rgb(195, 195, 195);
+    color: black;
+}
+
+
+.text-padding {
+    padding: 8px 16px;
+    color: grey;
+    margin: 15px 0 15px 0;
+    display: inline;
+}
+
+.img-container{
+
+    /* border: 2px solid blue; */
+    flex-wrap: wrap;
+    display: flex;
+}
+.card-items{
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.card-items p{
+    height: 45px;
+    width: 205.488px;
+    padding: 0 16px 0 16px;
+    font-size: 15px;
+}
+
+.card-items img {
+    height: 256px;
+    width: 205.4px;
+    display: inline;
+    vertical-align: auto;
+    
+}
+
+.bg-img{
+    margin-left: 10px;
+    width: 100%;
+}
+#buy{
+    background-image: url(jeans2.jpg);
+    margin-left: 10px;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    margin: auto;
+}
+.hw button{
+    width: 115.82px;
+    height: 38.4px;
+    color: white;
+    background-color: black;
+    margin: auto;
+    overflow: hidden;
+    display: inline;
+
+    
+}
+
+#sale{
+    background-image: url(jeans4.jpg);
+    margin-left: 10px;
+    
+    background-position: 0%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+
+.hw{
+
+    height: 256px;
+    width: 205.4px;
+}
+
+
+.contact{
+    justify-content: space-between;
+}
+
+
+.container{
+    font-family: "montserrat", "sans-serif";
+    font-size: 15px;
+    line-height: 22.5px;
+    text-decoration: none solid rgb(255, 255, 255);
+    word-spacing: 0px;
+    display: block;
+
+
+    /* border: 1px solid green; */
+    height: 290.5px;
+    width: 950px;
+    padding:32px 16px 32px 16px;
+
+    background-color: black;
+    color: white;
+    background-position: 0% 0%;
+}
+.container h1{
+    font-size: 36px;
+    line-height: 54px;
+}
+.container p{
+    font-size: 15px;
+    line-height: 22.5px;
+    height: 22.5px;
+    width: 918px;
+    text-align: justify;
+
+}
+#Email{
+    font-family: "montserrat", "sans-serif";
+    font-size: 15px;
+    line-height: 22.5px;
+    text-decoration: none solid rgb(255, 255, 255);
+    word-spacing: 0px;
+
+    height: 40.5px;
+    width: 100%;
+
+    border: 1px solid  #CCCCCC;
+    padding: 8px 8px 8px 8px;
+
+
+    background-color: white;
+    color: black;
+    
+    }
+.sub{
+    background-color: red;
+    width: 155.812px;
+    height  : 51px;
+
+    padding: 8px 16px 8px 16px;
+    line-height: 22.5px;
+}  
+.submit{
+    font-size: 15px;
+
+    color: white;
+    text-decoration: none;
+    
+    font-family: 'montserrat','sans-serif';
+    letter-spacing: 3px;
+}
+
+.foot{
+    background-color: rgb(240, 235, 235);
+    /* border: 2px solid brown;  */
+    height: 450px;
+    width: 950px;
+    padding: 64px 0px 64px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'montserrat','sans-serif';
+}  
+.contact{
+    /* border: 2px solid violet; */
+    height: 308px;
+    width: 311.328px;
+    text-align: center;
+}
+.contact h4{
+    line-height: 30px;
+}
+.contact p{
+    margin: 12px 0 12px 0;
+    width: 295px;
+    height: 18px;
+    font-size: 12px;
+    font-family: 'montserrat', 'sans-serif';
+}
+.about{
+    /* border: 2px solid purple; */
+    height: 322px;
+    width: 311.328px;
+    text-align: center;
+    font-size: 20px;
+}
+.about p{
+    height: 30px;
+    width: 215px;
+    line-height: 18px;
+    font-size: 12px;
+    margin: auto;
+}
+.info a{
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: underline solid black;
+    text-align: center;
+
+
+}
+
+
+.qus{
+    font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+    width: 295px;
+    
+}
+.form{
+    height: 226px;
+    width: 295.328px;
+    /* border: 1px solid #CCCCCC; */
+    margin: auto;
+    /* line-height: 18px; */
+}
+button{
+    height: 34px;
+    width: 295.36px;
+    color: white;
+    background-color: black;
+    font-family: "montserrat","sans-serif";
+    font-size: 12px;
+    /* overflow: hidden; */
+}
+button:hover{
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+
+}
+
+.send a{
+    text-decoration: none;
+    height: 34px;
+    width: 295.36px;
+    color: white;
+    background-color: black;
+    font-family: "montserrat","sans-serif";
+    text-align: center;
+    
+}
+
+.w3{
+    /* border: 1px solid black; */
+    font-size: 15px;
+    color: #CCCCCC;
+    background-color: black;
+    height: 70.5px;
+    width: 950px;
+    padding: 24px 0 24px 500px;
+    text-align: justify;
+    
+}
+.link{
+    font-size: 15px;
+    color: #CCCCCC;
+    text-decoration: underline solid white;
+
+
+}
+
+.cont{
+    height: 34px;
+    width: 295.36px;
+    font-size: 12px;
+    font-family: "montserrat", 'sans-serif';
+    padding: 8px;
+    margin: 6px 0 6px 0;
+}
+.store{
+    /* border: 2px solid blue; */
+    height: 282px;
+    width: 311.328px;
+    padding: 0 8px 0 8px;
+    text-align: justify;
+}
+.store p i{
+    font-size: 12px;
+    line-height: 18px;
+}
+.store p{
+    width: 295px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 10px 0 10px 0;
+    text-align: justify;
+}
+.store h4{
+    width: 295px;
+    font-weight: 0%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
